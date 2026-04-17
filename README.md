@@ -1,21 +1,6 @@
 # 🎯 Active Threat Hunting System
 ### SOC Level 2 | Attack Attribution Engine | Kali Linux
 
----
-
-## What This System Does
-
-This is a **professional-grade threat hunting and attack attribution system** built for Kali Linux. It doesn't just detect attacks — it **tracks attacker behavior across your entire system**, builds a complete attack timeline, correlates events across multiple log sources, and attributes the attack to a specific threat actor profile.
-
-This is **SOC Level 2 work**. Explaining this project in an interview demonstrates:
-- Threat hunting methodology
-- MITRE ATT&CK framework knowledge  
-- Log correlation & SIEM thinking
-- Attack chain analysis (Kill Chain)
-- Real incident response workflow
-
----
-
 ## System Architecture
 
 ```
@@ -134,17 +119,6 @@ The `--demo` flag runs a full **APT attack simulation** showing all 6 phases:
 
 ---
 
-## Interview Talking Points
-
-**"Tell me about your threat hunting project":**
-
-> "I built an active threat hunting system that detects and tracks attackers across log sources in real-time. It uses a correlation engine to build attacker profiles — tracking which hosts they accessed, what commands they ran, and how they moved laterally through the network. Each event is tagged with a MITRE ATT&CK technique, and the system generates a complete attack timeline for incident response. It parses auth.log, Apache logs, and audit logs, and can do live packet capture via tcpdump for network-level detection."
-
-**"What MITRE techniques does it detect?":**
-> T1110 (Brute Force), T1046 (Port Scan), T1021 (Lateral Movement via SSH/SMB/RDP), T1059 (Command Execution), T1190 (Web Exploitation), T1041 (Exfiltration), T1548 (Privilege Escalation)
-
----
-
 ## Tech Stack
 
 - **Python 3.8+** — Core engine, log parsing, correlation
@@ -177,4 +151,3 @@ def fetch_wazuh_alerts():
 
 ---
 
-*Built for: Security Analyst / SOC Level 2 / Threat Hunter job applications*
