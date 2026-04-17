@@ -1,0 +1,13 @@
+{
+  "report_generated": "2026-04-17T15:05:38.064924",
+  "system": "Active Threat Hunting System v1.0",
+  "stats": {
+    "total_events_processed": 0,
+    "total_alerts": 0,
+    "attackers_tracked": 0,
+    "start_time": "2026-04-17T15:05:38.059012"
+  },
+  "threat_actors": {},
+  "total_alerts": 0,
+  "alerts": []
+}
